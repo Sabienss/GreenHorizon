@@ -1,0 +1,41 @@
+.statewrong-child5 {
+  position: absolute;
+  height: 89.29%;
+  width: 86.96%;
+  top: 0;
+  right: 6.52%;
+  bottom: 10.71%;
+  left: 6.52%;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-red);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.reduce4 {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  top: 22.32%;
+  left: 0;
+  display: inline-block;
+  z-index: 1;
+}
+.statewrong9 {
+  width: 276px;
+  height: 112px;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 950px) {
+  .reduce4 {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .reduce4 {
+    font-size: var(--font-size-5xl);
+  }
+}

@@ -1,0 +1,219 @@
+.eco-game2,
+.rs-reduce-reuse1 {
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.eco-game2 {
+  margin: 0 !important;
+  width: 385px;
+  position: absolute;
+  top: 133px;
+  left: calc(50% - 192.5px);
+}
+.rs-reduce-reuse1 {
+  margin: 0;
+  width: 918px;
+  position: relative;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.rs-reduce-reuse-recycle-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.green6,
+.horizons6 {
+  display: inline-block;
+  text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.green6 {
+  height: 235px;
+  width: 854.1px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -74.8px;
+  left: 0;
+  z-index: 1;
+}
+.horizons6 {
+  height: 143.7px;
+  flex: 1;
+  position: relative;
+  color: var(--color-sandybrown);
+  max-width: 100%;
+  z-index: 2;
+}
+.frame-header,
+.green-group,
+.more-game-4-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.green-group {
+  width: 1166px;
+  flex-direction: row;
+  position: relative;
+  margin-top: -79.5px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-yellowgreen);
+  font-family: var(--font-luckiest-guy);
+}
+.frame-header,
+.more-game-4-inner {
+  flex-shrink: 0;
+}
+.frame-header {
+  width: 1215px;
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray);
+  font-family: var(--font-nunito);
+}
+.more-game-4-inner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-9xl) 57.8px;
+  box-sizing: border-box;
+}
+.image-14-icon {
+  height: 272px;
+  width: 284px;
+  position: absolute;
+  margin: 0 !important;
+  top: -116px;
+  right: -112px;
+  border-radius: var(--br-31xl);
+  object-fit: cover;
+}
+.rectangle-icon {
+  height: 366px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.frame-parent4,
+.image-14-parent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.image-14-parent {
+  left: -4px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent4 {
+  bottom: 0;
+  left: 0;
+  width: 741px;
+}
+.frame-parent3 {
+  height: 360px;
+  flex: 1;
+  position: relative;
+  min-width: 552px;
+  max-width: 100%;
+}
+.instance-container {
+  width: 276px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xl);
+  box-sizing: border-box;
+}
+.frame-parent2,
+.more-game-4-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent2 {
+  width: 1125px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  flex-shrink: 0;
+  row-gap: 20px;
+}
+.more-game-4-child {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.frame-parent5,
+.more-game-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-parent5 {
+  width: 734px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: -1230px;
+  left: 299px;
+  align-items: flex-start;
+  gap: var(--gap-70xl);
+  max-width: 100%;
+}
+.more-game-4 {
+  width: 100%;
+  height: 719px;
+  position: relative;
+  background-color: var(--color-ivory);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: var(--padding-27xl) var(--padding-22xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-85xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 950px) {
+  .eco-game2,
+  .rs-reduce-reuse1 {
+    font-size: var(--font-size-32xl);
+  }
+  .more-game-4 {
+    height: auto;
+    gap: var(--gap-33xl);
+  }
+}
+@media screen and (max-width: 700px) {
+  .frame-parent3 {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .eco-game2,
+  .rs-reduce-reuse1 {
+    font-size: var(--font-size-19xl);
+  }
+  .green6,
+  .horizons6 {
+    font-size: var(--font-size-lgi);
+  }
+  .more-game-4 {
+    gap: var(--gap-7xl);
+  }
+}

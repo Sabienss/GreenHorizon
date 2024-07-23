@@ -1,0 +1,55 @@
+.desktop-201,
+.img {
+  width: 1481px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.desktop-201 {
+  height: 835px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.img {
+  height: 741px;
+  background-color: var(--color-darkgray);
+}
+.mask-group-icon1 {
+  position: absolute;
+  top: -484px;
+  left: -40px;
+  width: 1561px;
+  height: 1609px;
+  object-fit: cover;
+  z-index: 1;
+}
+.shape {
+  position: absolute;
+  top: 16px;
+  left: 1471px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-darkslategray);
+  width: 10px;
+  height: 51px;
+  z-index: 2;
+}
+.content,
+.end-4 {
+  position: relative;
+}
+.content {
+  height: 719px;
+  flex: 1;
+  max-width: 100%;
+}
+.end-4 {
+  width: 100%;
+  background-color: var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}

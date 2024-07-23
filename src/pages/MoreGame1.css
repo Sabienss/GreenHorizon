@@ -1,0 +1,166 @@
+.more-game-5-inner {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 234px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.actions-choice,
+.instance-parent,
+.more-game-5-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.instance-parent {
+  width: 828px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  row-gap: 20px;
+}
+.actions-choice {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.recycle-correct,
+.recycle-default {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.recycle-default {
+  width: 312px;
+  flex-direction: row;
+  padding: 0 var(--padding-lg);
+}
+.recycle-correct {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-27xl) 0 0;
+  min-width: 179px;
+}
+.recycle-wrong-correct {
+  width: 623px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-52xl);
+  max-width: 100%;
+}
+.recycle-default-parent,
+.reduce-component {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.recycle-default-parent {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-blueviolet);
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 71px var(--padding-xl) 0;
+  gap: var(--gap-56xl);
+}
+.reduce-component {
+  width: 734px;
+  gap: var(--gap-70xl);
+  flex-shrink: 0;
+}
+.actions-container,
+.actions-container-wrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.actions-container {
+  height: 122px;
+  width: 877px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-3xs);
+  gap: var(--gap-107xl);
+  flex-shrink: 0;
+}
+.actions-container-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 15px 0 0;
+}
+.more-game-5 {
+  width: 100%;
+  height: 719px;
+  position: relative;
+  background-color: var(--color-ivory);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 24px 66px 0 var(--padding-6xl);
+  box-sizing: border-box;
+  gap: var(--gap-85xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1150px) {
+  .more-game-5 {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .actions-container {
+    gap: var(--gap-44xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .more-game-5-inner {
+    padding-bottom: 152px;
+    box-sizing: border-box;
+  }
+  .recycle-wrong-correct {
+    gap: var(--gap-16xl);
+  }
+  .recycle-default-parent {
+    gap: var(--gap-18xl);
+  }
+  .reduce-component {
+    gap: var(--gap-25xl);
+  }
+  .actions-container {
+    height: auto;
+  }
+  .more-game-5 {
+    gap: var(--gap-33xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .recycle-wrong-correct {
+    gap: var(--gap-lg);
+  }
+  .recycle-default-parent {
+    gap: var(--gap-lgi);
+    padding-top: var(--padding-27xl);
+    box-sizing: border-box;
+  }
+  .reduce-component {
+    gap: var(--gap-3xl);
+  }
+  .actions-container {
+    gap: var(--gap-12xl);
+  }
+  .more-game-5 {
+    gap: var(--gap-7xl);
+  }
+}

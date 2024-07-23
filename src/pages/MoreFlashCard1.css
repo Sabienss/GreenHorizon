@@ -1,0 +1,96 @@
+.image-8-icon1 {
+  position: absolute;
+  top: -17px;
+  left: -34px;
+  width: 1515px;
+  height: 753px;
+  object-fit: contain;
+}
+.frame-child1,
+.frame-inner,
+.group-icon {
+  position: absolute;
+  top: 51px;
+  left: 174px;
+  width: 595.5px;
+  height: 654.9px;
+  object-fit: contain;
+  z-index: 1;
+}
+.frame-child1,
+.group-icon {
+  top: 53px;
+  left: 793px;
+  width: 562.2px;
+  height: 644px;
+}
+.frame-child1 {
+  top: 69.4px;
+  left: 496.2px;
+  width: 504.4px;
+  height: 621.9px;
+  z-index: 2;
+}
+.image-8-group {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.green2,
+.horizons2 {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.green2 {
+  height: 235px;
+  width: 854.1px;
+  max-width: 100%;
+  z-index: 3;
+}
+.horizons2 {
+  align-self: stretch;
+  height: 143.7px;
+  z-index: 4;
+}
+.horizons-wrapper,
+.more-flash-card-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-luckiest-guy);
+}
+.horizons-wrapper {
+  width: 1166px;
+  flex-direction: column;
+  padding: var(--padding-base-5) 0 0;
+  max-width: 100%;
+  margin-left: -854.1px;
+  color: var(--color-sandybrown);
+}
+.more-flash-card-2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-lightcyan);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-11xl) var(--padding-10xl) 454px;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--color-yellowgreen);
+}
+@media screen and (max-width: 450px) {
+  .green2,
+  .horizons2 {
+    font-size: var(--font-size-lgi);
+  }
+}

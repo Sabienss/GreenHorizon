@@ -1,0 +1,99 @@
+.image-9-icon {
+  position: absolute;
+  top: -30px;
+  left: -53px;
+  width: 1564px;
+  height: 753px;
+  object-fit: contain;
+}
+.frame-child2,
+.frame-child3,
+.frame-child4 {
+  position: absolute;
+  top: 31px;
+  left: 138.8px;
+  width: 610.1px;
+  height: 684.5px;
+  object-fit: contain;
+  z-index: 1;
+}
+.frame-child3,
+.frame-child4 {
+  top: 30px;
+  left: 746.7px;
+  width: 574px;
+  height: 696.8px;
+  z-index: 2;
+}
+.frame-child4 {
+  top: 42.1px;
+  left: 453.4px;
+  width: 504.1px;
+  height: 637.5px;
+  z-index: 3;
+}
+.image-9-parent {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.green3,
+.horizons3 {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.green3 {
+  text-decoration: none;
+  height: 235px;
+  width: 854.1px;
+  color: inherit;
+  max-width: 100%;
+  z-index: 4;
+}
+.horizons3 {
+  align-self: stretch;
+  height: 143.7px;
+  z-index: 5;
+}
+.horizons-container,
+.more-flash-card-3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-luckiest-guy);
+}
+.horizons-container {
+  width: 1166px;
+  flex-direction: column;
+  padding: var(--padding-base-5) 0 0;
+  max-width: 100%;
+  margin-left: -854.1px;
+  color: var(--color-sandybrown);
+}
+.more-flash-card-3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-lightcyan);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-12xl) var(--padding-10xl) 453px;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--color-yellowgreen);
+}
+@media screen and (max-width: 450px) {
+  .green3,
+  .horizons3 {
+    font-size: var(--font-size-lgi);
+  }
+}

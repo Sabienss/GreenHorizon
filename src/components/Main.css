@@ -1,0 +1,117 @@
+.image-13-icon,
+.shape-icon {
+  position: absolute;
+  top: 134px;
+  left: -59px;
+  width: 745px;
+  height: 366px;
+  object-fit: contain;
+}
+.image-13-icon {
+  top: 0;
+  left: 476px;
+  border-radius: var(--br-58xl);
+  width: 469px;
+  height: 326px;
+  object-fit: cover;
+  z-index: 1;
+}
+.content2,
+.green16 {
+  position: absolute;
+  margin: 0 !important;
+}
+.content2 {
+  height: 500px;
+  width: 945px;
+  bottom: -295px;
+  left: -25px;
+}
+.green16 {
+  height: 235px;
+  width: 854.1px;
+  top: -9px;
+  left: 0;
+  display: inline-block;
+  text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+.rs-reduce-reuse3 {
+  margin: 0;
+  width: 918px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.horizons-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.horizons16 {
+  width: 1166px;
+  height: 143.7px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-luckiest-guy);
+  color: var(--color-sandybrown);
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+  z-index: 3;
+  margin-top: -79.5px;
+}
+.horizons-title-parent,
+.main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+}
+.horizons-title-parent {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 0 var(--padding-208xl-8);
+  box-sizing: border-box;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray);
+  font-family: var(--font-nunito);
+}
+.main {
+  width: 1227px;
+  flex-direction: row;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  color: var(--color-yellowgreen);
+  font-family: var(--font-luckiest-guy);
+}
+@media screen and (max-width: 1050px) {
+  .rs-reduce-reuse3 {
+    font-size: var(--font-size-32xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .green16 {
+    font-size: var(--font-size-lgi);
+  }
+  .rs-reduce-reuse3 {
+    font-size: var(--font-size-19xl);
+  }
+  .horizons16 {
+    font-size: var(--font-size-lgi);
+  }
+  .horizons-title-parent {
+    padding-bottom: var(--padding-129xl);
+    box-sizing: border-box;
+  }
+}

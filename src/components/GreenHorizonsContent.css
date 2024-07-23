@@ -1,0 +1,72 @@
+.image-26-icon {
+  width: 298px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-6xl);
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.green-horizon1 {
+  align-self: stretch;
+  position: relative;
+  z-index: 3;
+}
+.advocating-for-a {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  z-index: 3;
+}
+.advocating-cleaner-planet {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 var(--padding-smi);
+  font-size: var(--font-size-13xl);
+}
+.green-horizon-image,
+.green-horizons-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.green-horizon-image {
+  align-self: stretch;
+  padding: var(--padding-8xl) 0 var(--padding-51xl);
+  position: relative;
+  gap: var(--gap-mid);
+}
+.green-horizons-content {
+  flex: 1;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 198px;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-gray);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 750px) {
+  .green-horizon1 {
+    font-size: var(--font-size-10xl);
+  }
+  .advocating-for-a {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .green-horizon1 {
+    font-size: var(--font-size-3xl);
+  }
+  .advocating-for-a {
+    font-size: var(--font-size-lgi);
+  }
+}

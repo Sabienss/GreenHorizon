@@ -1,0 +1,47 @@
+.button1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1;
+}
+
+.button2 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: var(--radius-200);
+  background-color: var(--color-darkorange);
+  border: 1px solid var(--color-darkorange);
+  overflow: hidden;
+  padding: var(--padding-3xs) var(--padding-9xl);
+  gap: var(--space-200);
+}
+
+.button3 {
+  flex: 1;
+  position: relative;
+  font-size: var(--m3-title-medium-size);
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--m3-title-medium);
+  color: var(--color-white);
+  text-align: left;
+  text-shadow: var(--m3-elevation-light-5);
+}
+
+.star-icon,
+.x-icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}

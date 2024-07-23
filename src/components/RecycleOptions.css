@@ -1,0 +1,62 @@
+.recycle-correct1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-27xl) 0 0;
+  box-sizing: border-box;
+  min-width: 179px;
+}
+.recycle-feedback {
+  width: 623px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-52xl);
+  max-width: 100%;
+}
+.recycle-options,
+.statedefault-parent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.statedefault-parent1 {
+  width: 734px;
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-blueviolet);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-xl) 0;
+  gap: var(--gap-107xl);
+}
+.recycle-options {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 750px) {
+  .recycle-feedback {
+    gap: var(--gap-16xl);
+  }
+  .statedefault-parent1 {
+    gap: var(--gap-44xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .recycle-feedback {
+    gap: var(--gap-lg);
+  }
+  .statedefault-parent1 {
+    gap: var(--gap-12xl);
+  }
+}

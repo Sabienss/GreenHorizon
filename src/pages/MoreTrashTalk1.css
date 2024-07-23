@@ -1,0 +1,17 @@
+.more-trash-talk-4-child {
+  position: absolute;
+  top: -245px;
+  left: -100px;
+  width: 1606px;
+  height: 1068px;
+}
+.more-trash-talk-4 {
+  width: 100%;
+  height: 719px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+}

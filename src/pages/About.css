@@ -1,0 +1,259 @@
+.green12,
+.horizons12 {
+  text-decoration: none;
+  display: inline-block;
+  text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.green12 {
+  height: 235px;
+  width: 854.1px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -74.8px;
+  left: 0;
+  color: inherit;
+}
+.horizons12 {
+  height: 143.7px;
+  flex: 1;
+  position: relative;
+  color: var(--color-sandybrown);
+  max-width: 100%;
+  z-index: 1;
+}
+.green-container {
+  width: 1166px;
+  margin: 0 !important;
+  position: absolute;
+  top: 36.5px;
+  left: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-yellowgreen);
+  font-family: var(--font-luckiest-guy);
+}
+.pexels-minan1398-1131458-icon {
+  position: absolute;
+  top: -1px;
+  left: -195.3px;
+  width: 759.5px;
+  height: 857.8px;
+  object-fit: contain;
+  z-index: 4;
+}
+.pexels-minan1398-1131458-icon1,
+.pexels-minan1398-1131458-icon2 {
+  position: absolute;
+  top: 337px;
+  left: 354px;
+  width: 593.8px;
+  height: 576px;
+  object-fit: contain;
+  z-index: 5;
+}
+.pexels-minan1398-1131458-icon2 {
+  top: 265.1px;
+  left: 721px;
+  width: 1028.6px;
+  height: 492.6px;
+  z-index: 6;
+}
+.pexels-minan1398-1131458-icon3,
+.pexels-minan1398-1131458-icon4 {
+  position: absolute;
+  top: -236px;
+  left: 892px;
+  width: 831.7px;
+  height: 885.1px;
+  object-fit: contain;
+  z-index: 7;
+}
+.pexels-minan1398-1131458-icon4 {
+  top: -279px;
+  left: 319px;
+  width: 913.2px;
+  height: 667.1px;
+  z-index: 8;
+}
+.image-29-icon,
+.pexels-minan-images {
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.pexels-minan-images {
+  width: 100%;
+  left: 0;
+}
+.image-29-icon {
+  width: 298px;
+  border-radius: var(--br-6xl);
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.focus {
+  align-self: stretch;
+  position: relative;
+  z-index: 3;
+}
+.addressing-plastic-pollution {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  z-index: 3;
+}
+.addressing-pollution {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 var(--padding-smi);
+  font-size: var(--font-size-13xl);
+}
+.focus-content,
+.green-horizons-content-parent {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.focus-content {
+  flex-direction: column;
+  padding: 37px 0 60px;
+  position: relative;
+  gap: var(--gap-mid);
+  min-width: 198px;
+}
+.green-horizons-content-parent {
+  flex-direction: row;
+  padding: 0 19px 0 0;
+  gap: var(--gap-15xl);
+  min-width: 431px;
+  max-width: 100%;
+}
+.image-30-icon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 13px;
+  border-radius: var(--br-6xl);
+  max-height: 100%;
+  width: 298px;
+  object-fit: cover;
+  z-index: 2;
+}
+.goals,
+.protect-and-preserve {
+  position: absolute;
+  display: inline-block;
+  z-index: 3;
+}
+.goals {
+  top: 33px;
+  left: 0;
+  width: 305px;
+  height: 49px;
+}
+.protect-and-preserve {
+  top: 88px;
+  left: 20px;
+  font-size: var(--font-size-13xl);
+  font-weight: 500;
+  width: 274px;
+}
+.goals-description {
+  align-self: stretch;
+  height: 339px;
+  position: relative;
+}
+.about,
+.goals-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.goals-content {
+  width: 311px;
+  flex-direction: column;
+  padding: 2px 0 0;
+}
+.about {
+  width: 100%;
+  position: relative;
+  backdrop-filter: var(--blur-glass);
+  background-color: var(--color-ivory);
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-129xl) 44px 233px 95px;
+  gap: 28px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-gray);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 750px) {
+  .focus {
+    font-size: var(--font-size-10xl);
+  }
+  .addressing-plastic-pollution {
+    font-size: var(--font-size-7xl);
+  }
+  .green-horizons-content-parent {
+    gap: var(--gap-mid);
+  }
+  .goals {
+    font-size: var(--font-size-10xl);
+  }
+  .protect-and-preserve {
+    font-size: var(--font-size-7xl);
+  }
+  .about {
+    padding-left: var(--padding-28xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .green-horizons-content-parent {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .green12,
+  .horizons12 {
+    font-size: var(--font-size-lgi);
+  }
+  .focus {
+    font-size: var(--font-size-3xl);
+  }
+  .addressing-plastic-pollution {
+    font-size: var(--font-size-lgi);
+  }
+  .goals {
+    font-size: var(--font-size-3xl);
+  }
+  .protect-and-preserve {
+    font-size: var(--font-size-lgi);
+  }
+  .about {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

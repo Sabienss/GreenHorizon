@@ -1,0 +1,44 @@
+.desktop-202 {
+  height: 476px;
+  width: 1481px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.shape1 {
+  position: absolute;
+  top: 9px;
+  left: 1458px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-darkslategray);
+  width: 10px;
+  height: 51px;
+}
+.mask-group-icon2 {
+  position: absolute;
+  top: -495px;
+  left: -373px;
+  width: 2176px;
+  height: 1838px;
+  object-fit: cover;
+  z-index: 1;
+}
+.content1 {
+  height: 719px;
+  width: 1481px;
+  position: relative;
+  flex-shrink: 0;
+}
+.end-2 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}

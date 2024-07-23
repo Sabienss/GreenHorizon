@@ -1,0 +1,155 @@
+.icon4 {
+  height: 853px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.trash-talk {
+  width: 489px;
+  top: 210px;
+  left: 93px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 3;
+}
+.horizons11,
+.main-content,
+.trash-talk {
+  margin: 0 !important;
+  position: absolute;
+}
+.horizons11 {
+  height: 143.7px;
+  width: 1166px;
+  top: 26.5px;
+  left: 9px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-luckiest-guy);
+  color: var(--color-sandybrown);
+  display: inline-block;
+  text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 5;
+}
+.main-content {
+  width: 1526px;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color-gray);
+  font-family: var(--font-nunito);
+}
+.div1 {
+  width: 1621.2px;
+  height: 935px;
+  transform: rotate(0.7deg);
+  display: none;
+  z-index: 1;
+}
+.div1,
+.green11,
+.rectangle-div {
+  position: relative;
+  max-width: 100%;
+}
+.green11 {
+  width: 854.1px;
+  height: 235px;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 4;
+}
+.rectangle-div {
+  align-self: stretch;
+  width: 1156px;
+  background-color: var(--color-gainsboro);
+  z-index: 2;
+}
+.confronting-environmental-poll {
+  width: 1277px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 1px;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 3;
+}
+.rectangle-group {
+  align-self: stretch;
+  width: 1286px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.more-trash-talk-1,
+.more-trash-talk-1-inner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.more-trash-talk-1-inner {
+  align-self: stretch;
+  height: 57px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-10xl) 0 var(--padding-xl);
+  max-width: 100%;
+  font-size: var(--font-size-17xl);
+  color: var(--color-gray);
+  font-family: var(--font-nunito);
+}
+.more-trash-talk-1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-4xs) 335px;
+  gap: 90px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-yellowgreen);
+  font-family: var(--font-luckiest-guy);
+}
+@media screen and (max-width: 750px) {
+  .trash-talk {
+    font-size: var(--font-size-29xl);
+  }
+  .confronting-environmental-poll {
+    font-size: var(--font-size-10xl);
+  }
+  .more-trash-talk-1 {
+    gap: var(--gap-26xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .trash-talk {
+    font-size: var(--font-size-10xl);
+  }
+  .green11,
+  .horizons11 {
+    font-size: var(--font-size-lgi);
+  }
+  .confronting-environmental-poll {
+    font-size: var(--font-size-3xl);
+  }
+  .more-trash-talk-1 {
+    gap: var(--gap-3xl);
+  }
+}
